@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: veri/tap_defines.v
+       veri/tap_top.v
+Copyright: See authors list in tap_defines.v
+License: LGPL-2.1
+
+Files: veri/test.v
+       xvc_sim/*
+Copyright: Michael Davidsaver
+License: GPL-3
