@@ -1,0 +1,10 @@
+Cross comparisons with OpenCores JTAG TAP
+
+http://www.opencores.org/projects/jtag/
+
+tap_top.v can not be synthesized.
+
+It also does not completely conform to ieee 1149.1-2001
+in that TDO changes one sim. tick after posedge tclk
+instead of negedge tclk as mandated.  This can be worked
+around by waiting >=2 sim ticks between tclk edges.
